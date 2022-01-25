@@ -1,9 +1,27 @@
-# Lekcja 4
-## Zadanie 1 - pro
-Stwórz funkcję `createButton` tworzącą element `<button>` o identyfikatorze `"super-button"`, dowolnej nazwie w środku i dodaj go do elementu `<body>`. Funkcja powinna także zwracać tego buttona. Następnie stwórz funkcję `openAlert`, która będzie uruchamiała wbudowaną funkcję `window.alert` z tekstem `"super"`. Funkcja `openAlert` powinna zostać wywołana w momencie kliknięcia na utworzony przycisk `"super-button"`.
+# 8.2
 
-Przykładowy input:
-Brak
+Poprzednio stworzona klasa jest dość prosta, poza tym analizując samą ich ideę, możemy domyśleć się, że klasa Apple może mieć wspólną klasę z innymi owocami. W końcu w każdym z nich możemy wyróżnić kolor, słodycz. Stworzymy więc bazową klasę Fruit, a nasza klasa Apple będzie tylko jej rozszerzeniem.
 
-Przykładowy output:
-Element `<button id="super-button">` wraz z pozostałymi założeniami
+Stwórz klasę Fruit, która będzie miała wszystkie parametry, które obecnie miało Apple. Klasa Apple musi rozszerzać (extends) klasę Fruit, ale oprócz tego posiadać 2 nowe paramtery:
+
+- goodForCider (typu Boolean)
+- goodForJuice (typue Boolean)
+  Które będą określać czy dany gatunek nadaje się do tworzenia cydrów lub/i soków.
+
+Klasa musi być stworzona tak, że kiedy stworzymy jej instancje w ten sposób:
+
+```javascript
+const apple = new Apple(true, false, "antonowka", "yellow", 5);
+```
+
+to zdołamy odczytać wszystkie parametry w ten sposób:
+
+```javascript
+apple.goodForCider; // true
+apple.goodForJuice; // false
+apple.name; // "antonowka"
+apple.color; // "yellow"
+apple.sweetness; // 5
+```
+
+Zważ na kolejność parametrów (goodForCider i goodForJuice są przed name, color, i sweetness).
