@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="4" failures="1" time="0.279">
-  <testsuite name="" errors="0" failures="1" skipped="0" timestamp="2023-02-22T09:34:07" time="0.267" tests="4">
+<testsuites name="jest tests" tests="4" failures="0" time="0.263">
+  <testsuite name="" errors="0" failures="0" skipped="0" timestamp="2023-02-25T07:37:03" time="0.256" tests="4">
     <testcase classname=" Stworzono klasę Fruit" name=" Stworzono klasę Fruit" time="0.001">
     </testcase>
     <testcase classname=" Stworzono klasę Apple" name=" Stworzono klasę Apple" time="0">
     </testcase>
     <testcase classname=" Poprawnie ustawiono parametry Fruit" name=" Poprawnie ustawiono parametry Fruit" time="0">
     </testcase>
-    <testcase classname=" Poprawnie ustawiono parametry Apple" name=" Poprawnie ustawiono parametry Apple" time="0.002">
-      <failure>Error: expect(received).toBe(expected) // Object.is equality
-
-Expected: &quot;macintosh&quot;
-Received: &quot;antonowka&quot;
-    at Object.&lt;anonymous&gt; (/Users/Beata/Library/Application Support/Code/User/globalStorage/leancode.future-collars/futurecollars/fe-js-08-02/tests/test.js:31:28)
-    at Object.asyncJestTest (/Users/Beata/Library/Application Support/Code/User/globalStorage/leancode.future-collars/futurecollars/fe-js-08-02/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:100:37)
-    at /Users/Beata/Library/Application Support/Code/User/globalStorage/leancode.future-collars/futurecollars/fe-js-08-02/node_modules/jest-jasmine2/build/queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/Users/Beata/Library/Application Support/Code/User/globalStorage/leancode.future-collars/futurecollars/fe-js-08-02/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
-    at /Users/Beata/Library/Application Support/Code/User/globalStorage/leancode.future-collars/futurecollars/fe-js-08-02/node_modules/jest-jasmine2/build/queueRunner.js:75:41
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    <testcase classname=" Poprawnie ustawiono parametry Apple" name=" Poprawnie ustawiono parametry Apple" time="0.001">
     </testcase>
   </testsuite>
 </testsuites>

@@ -1,9 +1,9 @@
 class Fruit {
   // kod tutaj
   constructor(name, color, sweetness) {
-    this.name = "antonowka";
-    this.color = "red";
-    this.sweetness = 5;
+    this.name = name;
+    this.color = color;
+    this.sweetness = sweetness;
   }
 }
 
@@ -11,8 +11,8 @@ class Apple extends Fruit {
   // oraz tutaj :)
   constructor(goodForCider, goodForJuice, name, color, sweetness) {
     super(name, color, sweetness);
-    this.goodForCider = true;
-    this.goodForJuice = false;
+    this.goodForCider = goodForCider;
+    this.goodForJuice = goodForJuice;
   }
 }
 
