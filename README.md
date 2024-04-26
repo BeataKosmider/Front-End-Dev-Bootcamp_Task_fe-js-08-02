@@ -1,4 +1,6 @@
-# 8.2
+# Task performed during Front-End Developer Bootcamp
+
+## 8.2
 
 Poprzednio stworzona klasa jest dość prosta, poza tym analizując samą ich ideę, możemy domyśleć się, że klasa Apple może mieć wspólną klasę z innymi owocami. W końcu w każdym z nich możemy wyróżnić kolor, słodycz. Stworzymy więc bazową klasę Fruit, a nasza klasa Apple będzie tylko jej rozszerzeniem.
 
